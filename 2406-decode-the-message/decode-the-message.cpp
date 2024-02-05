@@ -8,7 +8,8 @@ public:
         //for each loop
         for(auto ch:key){
             if(ch != ' ' && mapping[ch]==0){
-                mapping[ch] = start;
+                mapping[ch] = start; //here the mapping is done wrt to the ascii value of the key to abc...z
+                // cout<< ch <<" "<<mapping[ch];
                 start++; //will increment the value a to b using ascii value
             } 
         }
