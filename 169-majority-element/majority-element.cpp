@@ -7,7 +7,7 @@ public:
 
         sort(nums.begin(),nums.end());
      
-        int middle  = (nums.size()-1)/2;
-        return nums[middle];
+        // int middle  = (nums.size()-1)/2;
+        return nums[(nums.size()-1)/2];
     }
 };
