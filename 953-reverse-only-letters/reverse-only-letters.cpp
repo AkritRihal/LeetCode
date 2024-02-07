@@ -17,4 +17,5 @@ public:
         } 
         return s;       
     }
+    // check using isalpha and swap acc to condition
 };
