@@ -9,7 +9,7 @@ public:
             sign = s[i]=='+'?1:-1;
             i++;
         }// checking sign
-        while(i<s.length() && isdigit(s[i])){
+        while(i<s.length() && isdigit(s[i])){ //now we check the range so that the digit is not above the range of int
             if(nums>INT_MAX/10 || (nums==INT_MAX/10 && s[i]>'7')){
                 return sign ==-1?INT_MIN:INT_MAX;
             } 
