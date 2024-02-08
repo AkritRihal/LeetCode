@@ -4,8 +4,8 @@ public:
     //func to calc no of opnes
     int ones(string& s){
         int count =0;
-        for(int i=0;i<s.size();i++){
-            if(s[i]=='1') count++;
+        for(auto b : s){
+            count += b-'0';          
         }
         return count;
     }
